@@ -1,4 +1,4 @@
-FROM ros:kinetic-ros-base
+FROM ubuntu:xenial
 
 # install ViSP packages
 RUN apt-get update
